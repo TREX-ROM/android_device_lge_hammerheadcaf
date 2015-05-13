@@ -24,6 +24,8 @@ on early-init
 
     # Enable device specific features
     setprop ro.product.device hammerhead
+    write /sys/block/mmcblk0/bdi/read_ahead_kb 1536
+
 
 on init
     # See storage config details at http://source.android.com/tech/storage/
