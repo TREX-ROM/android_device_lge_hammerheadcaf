@@ -115,7 +115,11 @@ KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-ea
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # LIQUIFY OPTIMIZATIONS V1
-# LIQUIFY := true
+USE_O3 := true
+STRICT := true
+GRAPHITE := true
+LTO := true
+A15_QUAD := true
 
 # Changelog
 LIQUID_CHANGELOG := true
