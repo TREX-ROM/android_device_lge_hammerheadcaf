@@ -120,6 +120,7 @@ STRICT := true
 GRAPHITE := true
 LTO := true
 A15_QUAD := true
+TARGET_ENABLE_UKM := true
 
 # Changelog
 LIQUID_CHANGELOG := true
