@@ -1,9 +1,9 @@
 [
   {
-    "remote": "cm",
-    "repository": "android_kernel_lge_hammerhead",
+    "remote": "gh",
+    "repository": "t-rex600/android_kernel_lge_hammerheadcaf",
     "target_path": "kernel/lge/hammerhead",
-    "branch": "cm-12.1-caf"
+    "branch": "5.1"
   },
   {
     "remote": "cm",
