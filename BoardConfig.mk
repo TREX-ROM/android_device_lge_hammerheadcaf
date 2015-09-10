@@ -110,7 +110,7 @@ BOARD_HAL_STATIC_LIBRARIES := libdumpstate.hammerhead
 
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := cyanogenmod_hammerhead_defconfig
-TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
+TARGET_KERNEL_SOURCE := kernel/lge/hammerheadcaf
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
