@@ -181,10 +181,22 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 # HW crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
-# Recovery
-RECOVERY_FSTAB_VERSION := 2
-BOARD_HAS_NO_SELECT_BUTTON := true
+
+#TWRP
+DEVICE_RESOLUTION := 1080x1920
+BOARD_HAS_NO_REAL_SDCARD := true
+RECOVERY_SDCARD_ON_DATA := true
+TW_NO_USB_STORAGE := false
+TW_INCLUDE_L_CRYPTO := true
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+# The real path for this is /sys/devices/mdp.0/qcom,cmdss_fb_primary.160/leds/lcd-backlight/brightness but the comma doesn't compile correctly
+TW_BRIGHTNESS_PATH := "/sys/devices/mdp.0/qcom\x2cmdss_fb_primary.160/leds/lcd-backlight/brightness"
+TW_MAX_BRIGHTNESS := 255
+TW_NO_SCREEN_TIMEOUT := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
+# TWRP specific build flags
+TW_THEME := portrait_hdpi
 
 # Hardware
 BOARD_HARDWARE_CLASS := device/lge/hammerheadcaf/cmhw
