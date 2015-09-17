@@ -1,7 +1,7 @@
 [
   {
     "remote": "gh",
-    "repository": "t-rex600/android_kernel_lge_hammerheadcaf",
+    "repository": "TREX-ROM/android_kernel_lge_hammerheadcaf",
     "target_path": "kernel/lge/hammerheadcaf",
     "branch": "lp5.1"
   },
